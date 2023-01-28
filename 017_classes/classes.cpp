@@ -12,6 +12,6 @@ class Pessoa {
 };
 
 int main(){
-   
+    
     return 0;
 }
