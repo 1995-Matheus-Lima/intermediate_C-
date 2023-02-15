@@ -18,9 +18,10 @@ int main(int argcn, char *argv[]){
     cout << "would like to add another name?[Y/N]: ";
     cin >> opc;
     system("clear");
-  }
+  } 
   file.close();
   file.open("./028_IO/names.txt",ios::in);
+  //file.open("./028_IO/names.txt",ios::in|ios::app); use to append text and not overwrite the data
   cout <<" ----------------Input Name List ------------------ " << endl;
   if(file.is_open()){
     string line;
